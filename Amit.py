@@ -1,4 +1,5 @@
 import telebot
+import os
 from telebot import types
 import sqlite3
 
@@ -6,8 +7,7 @@ import sqlite3
 # CONFIG
 # ==================================================
 
-BOT_TOKEN = "8687278932:AAHxTUY3Sb5uVrlD1r12UmD1INA0EUS4rfM"
-
+BOT_TOKEN = os.getenv("8687278932:AAG6LssTfwFzPx8okZ9tfMlMA1If_ptmqG8")
 CHANNEL_USERNAME = "@test_channel1230"
 CHANNEL_URL = "https://t.me/test_channel1230"
 
